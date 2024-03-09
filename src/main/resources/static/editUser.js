@@ -45,7 +45,6 @@ formEditUser.addEventListener('submit', editUser => {
             name: formEditUser.nameEdit.value,
             age: formEditUser.ageEdit.value,
             email: formEditUser.emailEdit.value,
-            password: formEditUser.passwordEdit.value,
             roles: roles
         })
     };
